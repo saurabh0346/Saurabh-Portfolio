@@ -204,6 +204,47 @@ const testimonials = [
 
 const projects = [
   {
+    name: "IMAGINIFY",
+    description:
+      "IMAGINIFY | AI SaaS Platform (Next.js, TypeScript)  - Developed an AI-powered image editing platform with features like reviving old photos, recoloring objects, and inpainting. Implemented user authentication (registration, login, and route protection) with secure credit purchases via Stripe for image transformations. Built for scalability with reusable code and features like image exploration with pagination and detailed image management. ",
+    tags: [
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Shadcn",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Cloudinary",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/saurabh0346/imaginify",
+  },
+  {
     name: "Travel-Website",
     description:
       "Developed a travel website using HTML, CSS, and Javascript for a user-friendly travel planning experience.Implemented interactive features with Javascript to enhance user experience (e.g. search functionality, dynamic content, image sliders).Ensured responsive design across various devices using appropriate frameworks or techniques for optimal user experience",
@@ -223,27 +264,6 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/saurabh0346/Travel-Website",
-  },
-  {
-    name: "New-Website",
-    description:
-      "Developed a new website using HTML, CSS, and Javascript. Implemented an API to dynamically fetch and display the latest news articles.  Designed a user-friendly interface for easy navigation and information access. Ensured responsive design for optimal viewing across various devices.",
-    tags: [
-      {
-        name: "API",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/saurabh0346/News-Site",
     //"https://github.com/",
   },
   {
